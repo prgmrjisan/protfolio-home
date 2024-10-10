@@ -1,0 +1,431 @@
+/*========newstyle.css*/
+*{
+	margin: 0; padding: 0; 
+}
+.inner{
+	width: 1120px;
+	border: 1px solid red;
+	margin: 0 auto;
+
+}
+.col{
+	width: 23%;
+	margin: 1%;
+	float: left;
+	background: #ccc;
+}
+.clear{
+	clear: both;
+}
+.col img{width: 100%;}
+h1{
+	text-align: center;
+}
+/**/
+.innerTow {
+    width: 1120px;
+    margin: 0 auto;
+}
+.myPic {
+    width: 48%;
+   
+	float:left;
+	
+}.myPic img {
+   text-align: center;
+   width: 100%;
+}
+.myPic {
+	width: 48%;
+    
+	margin: 1px;
+}.child-pic {
+    position: relative;
+    /* margin: 0% 0% 0% 6%; */
+   
+    /* margin: 0px 0px 5px; */
+    padding: 0px 35px;
+}
+img.child-pic-pattern {
+      position: absolute;
+    margin: 23% -4%;
+    margin-top: 9%;
+    width: 81%;
+	transition: 1s;
+}img.child-pic-pattern:hover{
+    
+   
+    margin-top: 4%;
+    
+}
+img.child-pic-myPic {
+    position: absolute;
+    margin: 0% 6%;
+    width: 82%;
+    margin-top: 1%;transition: 1s;
+}img.child-pic-myPic:hover{
+    
+    margin-top: 5%;
+}
+.info {
+    /* padding: 120px; */
+    /* margin: 34% 10%; */
+    margin-top: 35%;
+    margin-left: 10%;
+    margin-bottom: 5%;
+}
+
+
+.socila_icon {
+    /* width: 102%; */
+    /* margin-top: 3%; */
+    margin-left: 9%;
+    /* padding: 1%; */
+    /* width: 82%; */
+}
+a.icon_positon {
+    margin: 1%;
+    padding: 1%;
+}
+img.social-icon-width {
+    width: 6%;
+    border: 1px solid;
+    border-radius: 13px;
+    /* padding: 2%; */
+    /* margin-left: 1%; */
+    /* margin-right: 4%; */
+    /* margin-bottom: 4%; */
+	 background-color: white;
+}img.social-icon-width:hover{
+   
+    
+    border-radius: 10px 10px 0px 10px;
+    /* padding: 2%; */
+    /* margin-left: 1%; */
+    /* margin-right: 4%; */
+    /* margin-bottom: 4%; */
+    background-color: #5eff3b4d;
+   
+}
+
+.button-info {
+    margin-left: 10%;
+    margin-top: 1%;
+    margin-bottom: 19%;
+}
+.button-info .btn-S{
+    padding: 2%;
+    background-color: #ff4321;
+    border: 0px;
+    border-radius: 9px;
+    margin-top: 2%;
+    font-size: 103%;
+    font-family: cursive;
+	transition: 0.5s;
+}.button-info .btn-S:hover{
+    
+    color: white;
+}
+.myPic h2 {
+    font-size: 230%;
+    font-size-adjust: arial black;
+    font-family: arial black;
+    /* font-size: 217%; */
+}
+.myPic h3 {
+    font-size: 266%;
+    font-family: cursive;
+    /* margin-top: -15px; */
+}.myPic p {
+    font-size: 149%;
+    /* margin-top: 21px; */
+}
+
+
+@media only screen and (min-width: 200px) and (max-width: 567px){
+	.inner{
+		width: 100%;
+	}
+	.child-pic {
+    position: relative;
+    /* margin: 0% 0% 0% 6%; */
+   
+    /* margin: 0px 0px 5px; */
+    padding: 0px 25px;
+}
+img.child-pic-pattern {
+    position: absolute;
+    margin: 23% 26&;
+    margin-top: 9%;
+    width: 81%;
+}
+img.child-pic-myPic {
+    position: absolute;
+    margin: 0% 6%;
+    width: 82%;
+}
+.col{
+	width: 98%;
+	margin: 1%;
+	
+}
+.clear{
+	clear: both;
+}
+.col img{
+	width: 100%;}
+
+
+.innerTow{
+		width: 100%;
+	}
+.myPic{
+	width: 98%;
+	margin: 1%;	
+}
+
+.myPic img{
+    /* width: 84%; */
+    margin-left: 1%;
+}
+
+.myPic {
+	width: 100%;
+	margin: 0px;
+}
+
+.info {
+    /* padding: 120px; */
+    /* margin: 34% 10%; */
+    margin-top: 35%;
+    margin-left: 10%;
+    margin-bottom: 5%;
+}
+
+
+.socila_icon {
+    /* width: 102%; */
+    margin-top: 3%;
+    margin-left: 9%;
+    padding: 1%;
+}
+img.social-icon-width {
+    width: 8%;
+    border: 1px solid;
+    border-radius: 14px 14px 0px;
+    /* padding: 2%; */
+    /* margin-left: 1%; */
+    margin-right: 0%;
+    margin-bottom: 2%;
+    padding: 1%;
+}
+
+.button-info {
+    margin-left: 10%;
+    margin-top: 1%;
+    margin-bottom: 19%;
+}
+.button-info button {
+    padding: 2%;
+    background-color: #ff4321;
+    border: 0px;
+    border-radius: 9px;
+    margin-top: 2%;
+    font-size: 103%;
+    font-family: cursive;
+}
+.myPic h2 {
+    font-size: 158%;
+    font-size-adjust: arial black;
+    font-family: arial black;
+}
+.myPic h3 {
+    font-size: 234%;
+    font-family: cursive;
+    /* margin-top: -15px; */
+}.myPic p {
+    font-size: 119%;
+    /* margin-top: 21px; */
+}
+/* animation effect*/
+
+.animation-effect {
+    width: 100%;
+    height: 100%;
+    padding: 2% 0% 3%;
+}
+.container {overflow: hidden;}
+
+.container .text{
+	
+	position: relative;
+	font-size: 180%;
+	font-weight: 300;
+}
+
+
+
+}
+
+@media only screen and (min-width: 568px) and (max-width: 992px){
+.inner{
+		width: 100%;
+	}
+	.child-pic{position: relative;}
+img.child-pic-pattern {
+    position: absolute;
+    margin: 23% 26&;
+    margin-top: 9%;
+    width: 81%;
+}
+img.child-pic-myPic {
+    position: absolute;
+    margin: 0% 6%;
+    width: 82%;
+}
+.col{
+	width: 48%;
+	margin: 1%;
+	
+	background: #ccc;
+}
+.clear{
+	clear: both;
+}
+.col img{width: 100%;}
+
+
+.innerTow{
+		width: 100%;
+	}
+.myPic{
+	width: 98%;
+	margin: 1%;	
+	float: left;
+}
+.child-pic{
+	position: relative;
+}
+.child-pic img.child-pic-pattern{position: absolute;}
+.child-pic img.child-pic-myPic{position: absolute;}
+.myPic img{
+	
+    width: 100%;
+}
+
+.myPic {
+	width: 48%;
+   margin: 1px;
+}
+
+.info {
+    /* padding: 120px; */
+    /* margin: 34% 10%; */
+    margin-top: 35%;
+    margin-left: 10%;
+    margin-bottom: 5%;
+}
+
+
+.socila_icon {
+    /* width: 102%; */
+    margin-top: 3%;
+    margin-left: 9%;
+    padding: 1%;
+}
+img.social-icon-width {
+    width: 6%;
+    border: 1px solid;
+    border-radius: 11px;
+    /* padding: 2%; */
+    /* margin-left: 1%; */
+    margin-right: 4%;
+    margin-bottom: 4%;
+}
+
+.button-info {
+    margin-left: 10%;
+    margin-top: 1%;
+    margin-bottom: 19%;
+}
+.button-info button {
+    padding: 1%;
+    background-color: royalblue;
+    border: 0px;
+    border-radius: 9px;
+}
+.myPic h2 {
+    font-size: 230%;
+    font-size-adjust: arial black;
+    font-family: arial black;
+}
+.myPic h3 {
+    font-size: 266%;
+    font-family: cursive;
+    /* margin-top: -15px; */
+}.myPic p {
+    font-size: 149%;
+    /* margin-top: 21px; */
+}
+
+/* animation effect*/
+
+.animation-effect {
+    width: 100%;
+    height: 100%;
+    padding: 2% 0% 3%;
+}
+
+
+.container .text{
+	
+	
+	font-size: 180%;
+	font-weight: 600;
+}
+
+
+
+}
+
+/* animation effect*/
+
+.animation-effect {
+    width: 100%;
+    height: 100%;
+    padding: 2% 0% 3%;
+}
+
+.container{
+	/* width: 430px; */
+	overflow: hidden;
+	/* width: 100%; */
+}
+.container .text{
+	position: relative;
+	color: #00ff73;
+	font-size: 180%;
+	font-weight: 600;
+}.container .text.first-text{
+	color: black;
+}
+.text.sec-text:before{
+	
+	content: "";
+	position: absolute;
+	top: 0;
+	left: 0;
+	height: 100%;
+	width: 100%;
+	background-color: white;
+	border-left: 2px solid #00ff73;
+	animation: animate 4s steps(12) infinite;
+}
+
+@keyframes animate{
+	40%, 60%{
+		left: calc(100% + 4px);
+	}100%{
+		left: 0%;
+	}
+}
